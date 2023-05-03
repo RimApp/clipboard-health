@@ -9,3 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+I made several changes to the original code to improve its readability. First, I replaced the "TRIVIAL_PARTITION_KEY" and "candidate" variable with a more descriptive "DEFAULT_PARTITION_KEY" and "paritionKey" variable. Second, I used a ternary operator to simplify the if-else statement for determining the partition key. Finally, I combined several if statements into a single chain of ternary operators.
+
+Overall, the updated code is more concise and easier to read due to the reduction of nested if-else statements and the use of descriptive variable names.
